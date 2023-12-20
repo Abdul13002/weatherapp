@@ -30,8 +30,8 @@ If you encounter any problems, please open an issue in the GitHub repository.
 
 ## Authors
 
-Your Name  
-Your Contact Information (optional)
+Abdirahman Addan Gaal
+
 
 ## Version History
 
@@ -42,7 +42,3 @@ Your Contact Information (optional)
 
 This project is open-source and free to use.
 
-## Acknowledgments
-
-* Weather data API providers
-* Front-end development resources
