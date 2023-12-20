@@ -1,0 +1,65 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: "Quicksand", sans-serif;
+  background-image: url("https://source.unsplash.com/1600x900/?weather");
+  font-size: 120%;
+}
+
+.card {
+  background: rgba(0, 0, 0, 0.798);
+  color: white;
+  padding: 2em;
+  border-radius: 15px;
+  width: 100%;
+  max-width: 420px;
+  margin: 1em;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+button {
+  margin-left: 1em;
+  border-radius: 50px;
+  border: none;
+  height: 36px;
+  width: 36px;
+  outline: none;
+  background: rgba(124, 124, 124, 0.15);
+  color: white;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+button:hover {
+  background: rgba(124, 124, 124, 0.3);
+}
+
+input.search-bar {
+  width: calc(100% - 50px);
+  padding: 0.5em;
+  border-radius: 24px;
+  border: none;
+  outline: none;
+  background: rgba(124, 124, 124, 0.15);
+  color: white;
+  font-size: 100%;
+}
+
+.weather img {
+  width: 50px;
+  height: 50px;
+  margin: 0.5em 0;
+}
+
+.weather .description,
+.humidity,
+.wind {
+  margin-top: 0.5em;
+}
+
+.hidden {
+  display: none;
+}
